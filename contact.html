@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sample Form</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+<style>
+input, textarea{
+	border:1px solid black;
+}
+
+input:focus, textarea:focus{
+	border-style: dashed;
+	border-color: blue
+}
+label { 
+	display: inline-block; 
+	width: 109px; 
+	text-align: left;
+	vertical-align: top; }
+
+}
+
+
+</style>
+</head>
+<body>
+
+	<form action='https://www.getform.org/f/10466db4-01ef-40c8-84c9-a93bc1c1366b' method="POST">
+		
+		<label for = "first">First name:</label>
+		<input type = "text" name = "firstName" id = "first"><br>
+		<label for = "surname">Last name:</label>
+		<input type = "text" name = "lastName" id = "surname"><br>
+		<label for = "email">Email:</label>
+		<input type = "email" name = "email" id = "email"><br>
+		<label for = "comments" class ="textarea">Your comments:</label>
+		<textarea rows="5" name = "comments" id = "comments"></textarea><br>
+		<input type = "submit" value = "Send me your comments!"
+
+	</form>
+	
+</body>
+</html>
