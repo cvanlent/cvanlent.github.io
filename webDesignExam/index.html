@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Final Exam</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script>
+	function removePic(){
+
+		document.getElementById('pic1').style.display = 'none';
+		document.getElementById('pic2').style.marginLeft = '25%';
+
+	}
+	function replacePic(){
+
+		document.getElementById('pic1').style.display = 'inline';
+		document.getElementById('pic2').style.marginLeft = '-4px';
+
+	}
+	</script>
+</head>
+<body>
+		<h1>Your name here</h1>
+		<img id ="pic1" src="images/examPic.JPG" alt="family pic">
+		<img id ="pic2" src="images/UMSI-logo.jpg" alt="UMSI logo">
+		<br/>
+		<button onclick = "removePic()">Remove Image</button>
+		<button onclick = "replacePic()">Replace Image</button>
+
+
+
+</body>
+</html>

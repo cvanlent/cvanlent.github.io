@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+}
+body{
+	background-image: url("../images/sun-pattern.png")
+}
+img{
+	box-sizing: border-box;
+	border:5px solid blue;
+	width:50%;
+	padding:5%;
+}
+
+#pic2{
+	margin-left: -4px 
+}
